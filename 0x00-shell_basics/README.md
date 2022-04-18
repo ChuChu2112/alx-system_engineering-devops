@@ -4,3 +4,4 @@ The '3-listfiles' script prints out the contents of a directory in their long fo
 The '4-listmorefiles' script prints the content of a directory in long format, including the hidden files
 The '5-listfilesdigitonly' prints the contents of a directory in its long format, including hidden files and user's and group's ID's simultaneously
 The '6-firstdirectory' script creates a new directory called 'my_first_directory'  in the 'tmp' directory in the root
+The '7-movethatfile' script moves an imaginery 'betty' file from 'tmp' directory to the 'my_first_directory' within 'tmp' directory
