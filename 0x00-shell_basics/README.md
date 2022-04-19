@@ -7,3 +7,4 @@ The '6-firstdirectory' script creates a new directory called 'my_first_directory
 The '7-movethatfile' script moves an imaginery 'betty' file from 'tmp' directory to the 'my_first_directory' within 'tmp' directory
 The '8-firstdelete' script removes a 'betty' file from the '/tmp/my_first_directory' pathway
 The '9-firstdirdeletion' removes the 'my_first_directory' and all its contents
+The script '10-back' changes the working directory to the previous one
