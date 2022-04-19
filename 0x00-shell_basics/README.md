@@ -8,3 +8,4 @@ The '7-movethatfile' script moves an imaginery 'betty' file from 'tmp' directory
 The '8-firstdelete' script removes a 'betty' file from the '/tmp/my_first_directory' pathway
 The '9-firstdirdeletion' removes the 'my_first_directory' and all its contents
 The script '10-back' changes the working directory to the previous one
+The '11-lists' script prints out the contents of the current, parent and boot directories in their long format including any hidden files
