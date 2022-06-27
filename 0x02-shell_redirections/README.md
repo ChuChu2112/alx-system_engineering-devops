@@ -29,3 +29,5 @@ PS: You can omit the '-delete' argument to first see what files will be delected
 How?
 By listing the files according to modification time from newest to oldest using the 'ls -t' command. The '-1' argument list the sorted file "one per line"
 The output of the aforementioned 'ls -1t' command is parsed into the 'head -n 10' command. That's how!
+
+<13-unique> script sorts and displays the content of <list> file with each content appearing just once
