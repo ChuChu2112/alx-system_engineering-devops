@@ -21,3 +21,6 @@ The output of the aforementioned command is parsed or piped in 'tail -n 1' comma
 <8-cwd_content> script stores the result of 'ls -la' bash command in a file called <ls_cwd_content>
 
 <9-duplicate_last_line> scripts appends the last line of the file <iacta> into <iacta> file
+
+<10-no_more_js> scripts deletes all files in the current working directory and its subdirectories that end with '.js' file extension. It doesn't delete any subdirectorie in the current working directories that bears the '.js' file extension. Beautifil isn't it!
+PS: You can omit the '-delete' argument to first see what files will be delected!
