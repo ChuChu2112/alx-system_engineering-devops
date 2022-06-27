@@ -5,3 +5,5 @@
 <2-hellofile> script displays the content of </etc/passwd>
 
 <3-twofiles> script displays the contents of </etc/passwd> and </etc/hosts> files
+
+<4-lastlines> script displays the last 10 lines in </etc/passwd> file
