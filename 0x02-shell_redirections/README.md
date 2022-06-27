@@ -1,1 +1,1 @@
-this script prints "Hello, World"
+<0-hello_world> script prints "Hello, World" on the standard output
