@@ -31,3 +31,5 @@ By listing the files according to modification time from newest to oldest using 
 The output of the aforementioned 'ls -1t' command is parsed into the 'head -n 10' command. That's how!
 
 <13-unique> script sorts and displays the content of <list> file that appeared just once. That is, it displays the text in the aforementioned file that occured ONLY ONCE.
+
+<14-findthatword> script displays the line in </etc/passwd> which contain the text 'root'
