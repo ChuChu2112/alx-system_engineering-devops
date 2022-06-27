@@ -19,3 +19,5 @@ The output of the aforementioned command is parsed or piped in 'tail -n 1' comma
 <7-file> script echoes a line of text into a strangly named file. 
 
 <8-cwd_content> script stores the result of 'ls -la' bash command in a file called <ls_cwd_content>
+
+<9-duplicate_last_line> scripts appends the last line of the file <iacta> into <iacta> file
