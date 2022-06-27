@@ -24,3 +24,8 @@ The output of the aforementioned command is parsed or piped in 'tail -n 1' comma
 
 <10-no_more_js> scripts deletes all files in the current working directory and its subdirectories that end with '.js' file extension. It doesn't delete any subdirectorie in the current working directories that bears the '.js' file extension. Beautifil isn't it!
 PS: You can omit the '-delete' argument to first see what files will be delected!
+
+<12-newest_files> script lists the 10 newset files in the current directory.
+How?
+By listing the files according to modification time from newest to oldest using the 'ls -t' command. The '-1' argument list the sorted file "one per line"
+The output of the aforementioned 'ls -1t' command is parsed into the 'head -n 10' command. That's how!
