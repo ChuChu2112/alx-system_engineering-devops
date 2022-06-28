@@ -1,0 +1,4 @@
+#!/bin/bash
+tr -d 'Cc'
+
+#-d option deletes the characters selected - in this case 'C' and 'c'. _tr -d_ command accepts only one argument

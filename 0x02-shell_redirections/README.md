@@ -67,3 +67,6 @@ How?
 
 18. <19-AZ> -standardInput- | _tr 'Ac' 'Ze'_
 This script takes input from standardInput aka keyboard and replaces the 'A' and 'c' characters with 'Z' and 'e' characters respectively
+
+19. <20-hiago>
+This script deletes the characters 'C' and 'c' from input using the _tr -d_ command
