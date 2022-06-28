@@ -64,3 +64,6 @@ This script displays only lines that begin with alphabets in the </etc//ssh/sshd
 How?
 ^ indicates that the _grep command_ should begin at the start of the each line
 [[:alpha:]] is a wildcard that selects all 'alphabet characters' irrespectively of if its upper or lower case
+
+18. <19-AZ> -standardInput- | _tr 'Ac' 'Ze'_
+This script takes input from standardInput aka keyboard and replaces the 'A' and 'c' characters with 'Z' and 'e' characters respectively
