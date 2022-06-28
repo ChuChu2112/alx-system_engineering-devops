@@ -58,7 +58,9 @@ This script displays the line containing the search string 'root' and prints out
 This script displays all the lines within </etc/passwd> file which do not have the string 'bin'.
 As all line have the 'bin' string, the _grep -v 'bin' /etc/passwd_ command displays nothing
 
-17. <18-letteronly>
-This script was really a tough nut to crack. Thanks to a kind programmer on 'Ubuntu.com'
-This script displays only lines that begin with _uppercase_ letters followed by _lowercase_ letters in the </etc//ssh/sshd_config> file
-Note the use of wildcards such as [[:upper:]] and [[:lower:]] and how they were placed side by side
+17. <18-letteronly> _grep '^[[:alpha:]]' /etc/ssh/sshd_config_
+This script was really a tough nut to crack.
+This script displays only lines that begin with alphabets in the </etc//ssh/sshd_config> file
+How?
+^ indicates that the _grep command_ should begin at the start of the each line
+[[:alpha:]] is a wildcard that selects all 'alphabet characters' irrespectively of if its upper or lower case
