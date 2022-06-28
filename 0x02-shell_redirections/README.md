@@ -38,3 +38,7 @@ The output of the aforementioned 'ls -1t' command is parsed into the 'head -n 10
 
 16. <16-whatsnext>
 This script displays the line containing the search string 'root' and prints out 3 lines AFTER the line containing the search string
+
+17. <17-hidethisword>
+This script displays all the lines within </etc/passwd> file which do not have the string 'bin'.
+As all line have the 'bin' string, the _grep -v 'bin' /etc/passwd_ command displays nothing
