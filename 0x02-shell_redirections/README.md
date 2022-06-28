@@ -68,5 +68,8 @@ How?
 18. <19-AZ> -standardInput- | _tr 'Ac' 'Ze'_
 This script takes input from standardInput aka keyboard and replaces the 'A' and 'c' characters with 'Z' and 'e' characters respectively
 
-19. <20-hiago>
+19. <20-hiago> _tr -d 'Cc'_
 This script deletes the characters 'C' and 'c' from input using the _tr -d_ command
+
+20. <21-reverse> _rev_
+This srcipt takes the standard input and reverses it. If a <file> were specified, the _rev_ command will reverse the content of the file, lineby line, character by character
