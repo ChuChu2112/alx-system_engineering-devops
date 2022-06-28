@@ -35,3 +35,6 @@ The output of the aforementioned 'ls -1t' command is parsed into the 'head -n 10
 <14-findthatword> script displays the line in </etc/passwd> which contain the text 'root'
 
 <15-countthatword> script displays the number of lines in </etc/passwd> file contain the 'bin' text
+
+16. <16-whatsnext>
+This script displays the line containing the search string 'root' and prints out 3 lines AFTER the line containing the search string
