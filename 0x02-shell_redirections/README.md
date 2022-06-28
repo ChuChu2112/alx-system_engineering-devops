@@ -73,3 +73,6 @@ This script deletes the characters 'C' and 'c' from input using the _tr -d_ comm
 
 20. <21-reverse> _rev_
 This srcipt takes the standard input and reverses it. If a <file> were specified, the _rev_ command will reverse the content of the file, lineby line, character by character
+
+21. <22-users_and_homes> [cut -d: -f1,6 /etc/passwd]
+This script takes the content of </etc/passwd> file and prints out only the 1st and 6th fields or columns as indicated by [-f1,6]. [-d] is included because the default delimiter in the </etc/passwd> is not TAB but ':'. That's why ':' is beside [-d]
