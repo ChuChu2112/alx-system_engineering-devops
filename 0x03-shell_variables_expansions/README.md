@@ -6,3 +6,6 @@ This script prints out the list of environmental variables. Environmental variab
 
 3. <5-local_variables> [set]
 This script prints out the list of both environmental (global) variables, local variables and functions in the shell
+
+4.<6-create_local_variable> [NAME='School']
+This script creates a variable called 'NAME' with content 'School'
