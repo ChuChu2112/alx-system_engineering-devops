@@ -7,5 +7,8 @@ This script prints out the list of environmental variables. Environmental variab
 3. <5-local_variables> [set]
 This script prints out the list of both environmental (global) variables, local variables and functions in the shell
 
-4.<6-create_local_variable> [BEST='School']
+4. <6-create_local_variable> [BEST='School']
 This script creates a variable called 'BEST' with content 'School'
+
+5. <7-create_local_variable> [export BEST='School']
+This script creates a new environmental or global variable called 'BEST'. Note the use of [export] keyword. Its what differenciates the creation of a global variable from a local variable
